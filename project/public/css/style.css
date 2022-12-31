@@ -1,0 +1,14 @@
+html,
+.body {
+    height: 100%;
+    font-family: sans-serif;
+    /* background-color: rgb(188, 194, 209); */
+}
+
+
+.account {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

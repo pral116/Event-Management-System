@@ -1,0 +1,133 @@
+/* All the CSS property for users side */
+.body{
+    font-family: 'Poppins', sans-serif;
+    /* background-color: #F0F2F5; */
+}
+
+/* .search{
+    width: 80%;
+    position: fixed;
+} */
+
+/* Home Page */
+/* search input field in home page */
+#search-bar{
+    border-radius: 25px;    
+    padding: 12px;
+}
+
+/* search button */
+#search-button{
+    border-radius: 20px;    
+    padding: 12px;
+    margin-left: 5px;
+}
+
+/* category */
+.category a{
+    margin: 5px;
+    border: 1px solid gray;
+    border-radius: 20px;
+}
+/* Home Page end */
+
+/* My Event Page */
+/* my event page button hover */
+.btn-my-event a:hover{
+    text-decoration: underline;
+    text-decoration-color: red;
+    text-transform: uppercase;
+}
+
+/* booked list and interested list button */
+.my-event-image img{
+    height: 120px;
+    background-size: cover;
+}
+
+/* Event detail */
+.event-detail img{
+    height: 300px;
+    width: 80%;
+    margin-top: 10px;
+    /* background-size: cover; */
+}
+
+/* Event card */
+/* .event-card{
+    width: 280px;
+}
+
+/* Event card Image */
+/* .event-card img{
+    height: 140px;
+    background-size: cover;
+} */
+
+/* Event card hover */
+/* .event-card:hover{
+    background-color: rgba(41, 19, 19, 0.473);
+    color: white;
+} */
+
+/* Filter btn */
+.filter-btn a:hover{
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: red !important;
+    border: 1px solid;
+    color: white !important;
+    border-radius: 15px;
+}
+
+/* Rating */
+.rating label {
+    color: rgb(211, 208, 66);
+    cursor: pointer;
+}
+
+.rating input + label {
+    font-size: 35px;
+}
+
+.rating input:checked + label ~ label {
+    color: #685959;
+}
+/* Rating end */
+
+/* Home page card */
+.homepage, .card {
+    transition: .3s transform cubic-bezier(.155, 1.105, .295, 1.12), .3s box-shadow, .3s -webkit-transform cubic-bezier(.155, 1.105, .295, 1.12);
+}
+
+.home-page, .card-img,
+.card-img-top {
+    border-top-left-radius: calc(1rem - 1px);
+    border-top-right-radius: calc(1rem - 1px)
+}
+
+.card h6 {
+    font-weight: 900;
+    font-size: 1rem
+}
+
+.card-img-top {
+    width: 100%;
+    max-height: 150px;
+    object-fit: contain;
+}
+
+.home-page .card:hover {
+    transform: scale(1.10);
+}
+
+.price-hp {
+    font-weight: 800;
+}
+/* End Home Page card */
+
+footer {
+    background: #212529;
+    height: 80px;
+    color: #fff
+}

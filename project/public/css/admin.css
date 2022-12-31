@@ -1,0 +1,58 @@
+html,
+body{
+    font-family: Arial,sans-serif;
+}
+
+.nav a:hover{
+    background-color:red;
+}
+
+.event-type{
+    justify-content: center;
+    padding-top: 250px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.event-type .card{
+    width: 150px;
+}
+
+.event-type .card:hover{
+    background-color: white !important;
+}
+
+.events .card{
+    width: 250px;
+    height: 100px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.events .event-name{
+    padding-top: 20px;
+}
+
+.events .event-status{
+    padding-top: 5px;
+}
+
+.events .card:hover{
+    background-color: rgb(75, 75, 160) !important;
+    color: white;
+}
+
+/* my_event.blade.php */
+.my-event-image img{
+    height: 80px;
+    background-size: cover;
+}
+
+.report-buttons a:hover{
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: red !important;
+    border: 1px solid;
+    color: white !important;
+    border-radius: 15px;
+}

@@ -1,0 +1,76 @@
+@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #fafafa;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.7em;
+}
+
+/* ---------------------------------------------------
+    SIDEBAR STYLE
+----------------------------------------------------- */
+
+.wrapper {
+    display: flex;
+    width: 100%;
+    align-items: stretch;
+}
+
+#sidebar {
+    min-width: 250px;
+    max-width: 250px;
+    transition: all 0.3s;
+}
+
+#sidebar.active {
+    margin-left: -250px;
+}
+
+/* #sidebar .sidebar-header {
+    /* padding-top: 50px; */
+    /* background: #6d7fcc; */
+/* } */
+
+#sidebar ul.components {
+    padding-top: 100px;
+}
+
+#sidebar ul li a {
+    padding: 20px;
+    font-size: 1.2em;
+    display: block;
+}
+
+#sidebar ul li a:hover {
+    background: #ABB2B9;
+}
+
+/* ---------------------------------------------------
+    CONTENT STYLE
+----------------------------------------------------- */
+
+#content {
+    width: 100%;
+    padding: 20px;
+    min-height: 100vh;
+    transition: all 0.3s;
+}
+
+/* ---------------------------------------------------
+    MEDIAQUERIES
+----------------------------------------------------- */
+
+@media (max-width: 768px) {
+    #sidebar {
+        margin-left: -250px;
+    }
+    #sidebar.active {
+        margin-left: 0;
+    }
+    #sidebarCollapse span {
+        display: none;
+    }
+}
